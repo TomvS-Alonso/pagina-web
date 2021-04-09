@@ -18,8 +18,9 @@ body{
 }
 
 .logo { 
-    height: 100px; 
-    width: 100px;
+    height: 125px;
+    width: 125px;
+    
 }
 .nav a {
     color: black;
@@ -28,8 +29,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 5px;
 }
-
+.nav-item {
+    padding: 2px;
+}
+.btn-primary {
+    border: 2px solid black;
+}
+.titulo {
+    font-size: 100;
+}
 footer{
     text-align: center;
     background-color: black;
@@ -48,7 +58,6 @@ footer{
 }
 img{
     display: flex;
-   
     width: 200px;
     height: 200px;
 }
